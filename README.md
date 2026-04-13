@@ -2,6 +2,8 @@
 
 This is the landing page for uncensored_code.
 
+**Live site:** https://uncensoredcode.vercel.app/
+
 Vibe coded using:
 
 - [opencode](https://opencode.ai)
