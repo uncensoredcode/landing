@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pac-Man</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="header">
+      <div class="header-item">SCORE: <span id="score">0</span></div>
+      <div class="header-item">LIVES: <span id="lives">❤️❤️❤️</span></div>
+      <div class="header-item">LEVEL: <span id="level">1</span></div>
+    </div>
+    <canvas id="gameCanvas"></canvas>
+    <div id="overlay" class="overlay">
+      <h1 id="overlayTitle">PAC-MAN</h1>
+      <p id="overlayText">Press SPACE or tap to start</p>
+    </div>
+    <div class="controls-info">
+      <p>Use <kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd> to move &nbsp; <kbd>P</kbd> to pause</p>
+    </div>
+    <div class="footer">Created by <a href="https://x.com/linuzeth" target="_blank"><b><u>Linuz</u></b></a> with <a href="https://github.com/uncensoredcode/openbridge" target="_blank"><b><u>OpenBridge</u></b></a></div>
+  </div>
+  <script src="audio.js"></script>
+  <script src="game.js"></script>
+</body>
